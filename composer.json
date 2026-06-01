@@ -1,0 +1,62 @@
+{
+    "name": "octacrafts/oc-qr-laravel",
+    "description": "Laravel integration for octacrafts/oc-qr QR code generation",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/octacrafts/oc-qr-laravel",
+    "keywords": [
+        "laravel",
+        "qr",
+        "qr-code",
+        "octacrafts"
+    ],
+    "authors": [
+        {
+            "name": "Octacrafts",
+            "homepage": "https://github.com/octacrafts"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/octacrafts/oc-qr-laravel/issues",
+        "source": "https://github.com/octacrafts/oc-qr-laravel"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "octacrafts/oc-qr": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Octacrafts\\QrLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Octacrafts\\QrLaravel\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Octacrafts\\QrLaravel\\Providers\\OcQrServiceProvider"
+            ],
+            "aliases": {
+                "Qr": "Octacrafts\\QrLaravel\\Facades\\Qr"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-text"
+    }
+}

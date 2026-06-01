@@ -1,0 +1,19 @@
+/vendor/
+composer.lock
+.phpunit.cache/
+.phpunit.result.cache/
+coverage/
+
+# Manual / local test artifacts
+manual-test-qr.png
+manual-test-qr.svg
+tinker-test.png
+tinker-test.svg
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
