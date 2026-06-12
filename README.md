@@ -1,6 +1,27 @@
 # octacrafts/oc-qr-laravel
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Laravel integration for [octacrafts/oc-qr](https://github.com/octacrafts/oc-qr). This package is a thin adapter: all QR generation, encoding, masking, and rendering live in the core library.
+
+Maintained by **[OctaCrafts](https://octacrafts.com)**.
+
+This package follows the OctaCrafts **core-plus-wrapper** pattern: [octacrafts/oc-qr](https://github.com/octacrafts/oc-qr) is the framework-agnostic QR engine (ISO/IEC 18004); **octacrafts/oc-qr-laravel** adds Laravel service provider, facade, configuration, and dependency injection. For plain PHP or other PSR-compliant apps, use the core directly.
+
+## About OctaCrafts
+
+[OctaCrafts](https://octacrafts.com) is a global IT systems and software engineering company that builds scalable digital ecosystems for businesses worldwide. From idea to launch, the team delivers enterprise-grade solutions focused on long-term growth, performance, and reliability.
+
+**What we do:**
+
+- **Web Development & Design** — modern, responsive, high-performance websites
+- **SaaS & ERP Solutions** — custom platforms that automate workflows and centralize operations
+- **Mobile Apps Development** — scalable Android, iOS, and cross-platform applications
+- **DevOps & Deployment** — secure cloud infrastructure, automation, and monitoring
+- **Web Maintenance** — ongoing security updates, backups, and technical support
+- **Infographics & Motion Graphics** — visual content and animations for clear communication
+
+Beyond client projects, OctaCrafts maintains open-source PHP libraries on [GitHub @octacrafts](https://github.com/octacrafts). Each ecosystem follows a core-plus-wrapper pattern: framework-agnostic cores for plain PHP and any PSR-compliant app, with dedicated integrations for popular frameworks.
 
 ## Requirements
 
@@ -129,4 +150,10 @@ QR encoding correctness is covered by [octacrafts/oc-qr](https://github.com/octa
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+**[OctaCrafts](https://octacrafts.com)** — Scalable IT Systems & AI-Driven Digital Ecosystems
+
+[octacrafts.com](https://octacrafts.com) · [info@octacrafts.com](mailto:info@octacrafts.com) · +1 (855) 424 4706

@@ -12,8 +12,14 @@
     ],
     "authors": [
         {
-            "name": "Octacrafts",
-            "homepage": "https://github.com/octacrafts"
+            "name": "OctaCrafts",
+            "homepage": "https://octacrafts.com",
+            "role": "Organization"
+        },
+        {
+            "name": "Wasif Naeem",
+            "homepage": "https://github.com/Wasif-Naeem",
+            "role": "Developer"
         }
     ],
     "support": {
